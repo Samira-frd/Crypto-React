@@ -1,0 +1,39 @@
+.coinContainer{
+    width: fit-content;
+    background-color: #0F3363;
+    margin: 50px auto;
+    border: 1px solid silver;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 25px;
+}
+
+.input{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    text-align: center;
+    margin: 50px 0 auto;
+    border: 1px solid silver;
+    background-color: #f6f6f6;
+    padding: 5px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.input:focus{
+    outline: none;
+    border-color: white;
+    background: white;
+    box-shadow: rgba(74, 74, 74, 0.25) 0px 3px 8px;
+}
